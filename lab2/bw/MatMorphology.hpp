@@ -19,12 +19,10 @@ const size_t SIZE = 3;
 namespace Morphology {
     Mat erosion(const Mat& img); //сужение
     Mat dilation(const Mat& img); //расширирение
-    
     Mat opening(const Mat& img); //открытие
     Mat closing(const Mat& img); //закрытие
     
     static int mask[SIZE][SIZE] = {{1,1,1}, {1,1,1}, {1,1,1}};
-    
 };
 
 #endif /* MatMorphology_hpp */

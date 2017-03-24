@@ -15,7 +15,7 @@ using namespace cv;
 
 int main() {
     
-    Mat img = imread("/Users/ryabinin_k/Downloads/source2.jpg");
+    Mat img = imread("/Users/ryabinin_k/Desktop/Learning/ImageProcessing/lab2/source2.jpg");
     Mat grayImg = method1(img);
     
     //Noise noiseImg(grayImg);

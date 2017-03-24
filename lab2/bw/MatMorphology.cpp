@@ -59,5 +59,4 @@ Mat Morphology::opening(const Mat &img) {
 Mat Morphology::closing(const Mat &img) {
     Mat result = Morphology::dilation(img);
     return Morphology::erosion(result);
-
 }
