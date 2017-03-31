@@ -2,7 +2,7 @@
 //  histogram.cpp
 //  bw
 //
-//  Created by Кирилл Рябинин on 02.03.17.
+//  Created by Кирилл Рябинин on 28.03.17.
 //  Copyright © 2017 Кирилл Рябинин. All rights reserved.
 //
 

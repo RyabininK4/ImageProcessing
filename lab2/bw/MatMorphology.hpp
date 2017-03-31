@@ -21,7 +21,7 @@ namespace Morphology {
     Mat dilation(const Mat& img); //расширирение
     Mat opening(const Mat& img); //открытие
     Mat closing(const Mat& img); //закрытие
-    
+
     static int mask[SIZE][SIZE] = {{1,1,1}, {1,1,1}, {1,1,1}};
 };
 

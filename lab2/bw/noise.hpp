@@ -14,13 +14,9 @@
 
 using namespace cv;
 
-class Noise {
-public:
-    Noise(Mat& img);
-    Mat getNoiseImg();
-    Mat createNoise(Mat &mat, double n, Vec3b &color);
-private:
-    Mat _img;
+namespace Noise {
+    //Mat impulseNoise(const Mat &mat, double noisePart, const Vec3b &color);
+    Mat createNoise(const Mat &img, int amount);
 };
 
 #endif /* noise_hpp */
